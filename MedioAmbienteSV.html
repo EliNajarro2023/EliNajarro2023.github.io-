@@ -1,0 +1,41 @@
+<! DOCTYPE html>
+<html>
+<cabeza>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<h1><Centro>Medio Ambiente SV</Center></h1>
+<estilo>
+  puntos { puntos {
+    relleno: 25px;
+    color de fondo: blanco;
+    color: negro;
+    tamaño de fuente: 25px;
+  }
+  .dark-mode {
+    color de fondo: negro;
+    color: blanco;
+  }
+  .light-mode {
+    color de fondo: blanco;
+    color: negro;
+  }
+</estilo>
+<cuerpo>
+
+  <h3 id="DarkModetext"></h3>
+  < botón onclick="darkMode()">🌙</button>
+  < botón onclick="lightMode()">☀️</button>
+  <índice>
+    función darkMode() {
+      var element  = documento. puntos;
+      can content = documento. getElementById("");
+      elemento. className = "modo oscuro";
+      contenido. innerText = "El modo oscuro está activado";
+    }
+    función lightMode() {
+      var element  = documento. puntos;
+      can content = documento. getElementById("");
+      elemento. className = "modo de luz";
+      contenido. innerText = "El modo oscuro está desactivado";
+    }
+  </guión>
+</cuerpo>
